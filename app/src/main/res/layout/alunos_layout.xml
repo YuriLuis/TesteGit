@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    android:background="@android:color/darker_gray"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViewNomeAluno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nome Aluno"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textViewProva1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Prova1" />
+
+            <TextView
+                android:id="@+id/textViewProva2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Prova2" />
+
+            <TextView
+                android:id="@+id/textViewProva3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:text="Prova3" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textViewNota"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="Nota"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
